@@ -1,6 +1,6 @@
 # Ferramenta BigData apache Spark em Docker
 
-![alt text](image.png)
+![alt text](imagens/image.png)
 
 ## Requisitos funcionais
 
@@ -54,7 +54,7 @@ Uma das principais características do Spark é sua capacidade de executar taref
 
 O Docker é uma plataforma de código aberto que permite a criação, implantação e execução de aplicativos em contêineres. Os contêineres são unidades de software leves e isoladas que encapsulam todos os componentes necessários para que um aplicativo seja executado, incluindo o código, as bibliotecas e as dependências. Isso proporciona consistência no ambiente de desenvolvimento, teste e produção, garantindo que o aplicativo funcione da mesma forma em diferentes ambientes.
 
-![alt text](image-2.png)
+![alt text](imagens/image-2.png)
 
 Além disso, o Docker facilita a implantação e o gerenciamento de aplicativos, permitindo que os desenvolvedores construam, compartilhem e executem aplicativos de forma rápida e eficiente, independentemente do ambiente de hospedagem.
 
