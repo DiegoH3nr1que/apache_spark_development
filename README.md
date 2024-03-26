@@ -29,6 +29,14 @@
 
 ## Conceitos iniciais
 
+### Apache spark
+
+![alt text](imagens/image-4.png)
+
+O Apache Spark é uma plataforma de computação distribuída de código aberto projetada para processamento de dados em larga escala e análise avançada em ambientes distribuídos. Ele oferece uma variedade de APIs em várias linguagens de programação, incluindo Scala, Java, Python e SQL, permitindo que os desenvolvedores escrevam programas de forma fácil e expressiva.
+
+Uma das principais características do Spark é sua capacidade de executar tarefas em memória, o que resulta em um processamento de dados muito mais rápido do que sistemas tradicionais de processamento em disco. Ele fornece suporte para uma ampla gama de cargas de trabalho, incluindo processamento em lote, streaming de dados em tempo real, aprendizado de máquina e processamento de gráficos.
+
 ### Conceitos de Streaming
 
 - Na camada de streaming, os dados são processados continuamente à medida que são recebidos, em vez de serem processados em lotes estáticos.
@@ -42,14 +50,6 @@
 - Essa abordagem é adequada para cenários em que a latência não é crítica e o processamento pode ser feito de forma mais eficiente em grandes volumes de dados.
 - Exemplos de casos de uso incluem análise de dados históricos, geração de relatórios, processamento de dados de logs, entre outros.
 
-### Apache spark
-
-![alt text](imagens/image-4.png)
-
-O Apache Spark é uma plataforma de computação distribuída de código aberto projetada para processamento de dados em larga escala e análise avançada em ambientes distribuídos. Ele oferece uma variedade de APIs em várias linguagens de programação, incluindo Scala, Java, Python e SQL, permitindo que os desenvolvedores escrevam programas de forma fácil e expressiva.
-
-Uma das principais características do Spark é sua capacidade de executar tarefas em memória, o que resulta em um processamento de dados muito mais rápido do que sistemas tradicionais de processamento em disco. Ele fornece suporte para uma ampla gama de cargas de trabalho, incluindo processamento em lote, streaming de dados em tempo real, aprendizado de máquina e processamento de gráficos.
-
 ### Docker
 
 O Docker é uma plataforma de código aberto que permite a criação, implantação e execução de aplicativos em contêineres. Os contêineres são unidades de software leves e isoladas que encapsulam todos os componentes necessários para que um aplicativo seja executado, incluindo o código, as bibliotecas e as dependências. Isso proporciona consistência no ambiente de desenvolvimento, teste e produção, garantindo que o aplicativo funcione da mesma forma em diferentes ambientes.
@@ -61,3 +61,13 @@ Além disso, o Docker facilita a implantação e o gerenciamento de aplicativos,
 ### Arquivos necessários para criar um contêiner:
 
 - Dockerfile: Arquivo de texto que contém instruções sobre como construir uma imagem Docker, descrevendo os passos necessários para criar uma imagem a partir de uma imagem base, instalando dependências, copiando arquivos, configurando variáveis de ambiente, entre outros.
+
+Exemplo de Dockerfile:
+
+![alt text](imagens/image5.png)
+
+- docker-compose.yml: é usado para definir e executar serviços em vários contêineres Docker. Ele permite definir a configuração de vários contêineres em um único arquivo, incluindo a imagem a ser usada, portas expostas, variáveis de ambiente, volumes montados, entre outros.
+
+Exemplo docker-compose.yml:
+
+![alt text](imagens/image6.png)
