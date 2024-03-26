@@ -22,9 +22,10 @@
 
 ### Conhecimentos necessários
 
-- Docker: Conhecimento básico é recomendado.
+- Docker: Conhecimento básico é necessário  .
 - Apache spark: Conhecimento básico é recomendado.
 - Python: Conhecimento básico é recomendado.
+- Pyspark: Conhecimento básico é recomendado.
 - Git: Conhecimento básico é recomendado.
 
 ## Conceitos iniciais
