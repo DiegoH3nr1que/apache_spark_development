@@ -1,0 +1,10 @@
+FROM bitnami/spark:latest
+
+# Cria um diretório 'app' no contêiner
+RUN mkdir /app
+
+# Copia o conteúdo do diretório 'app' do host para o diretório 'app' no contêiner
+COPY app /app
+
+# Define o diretório de trabalho como '/app'
+WORKDIR /app
