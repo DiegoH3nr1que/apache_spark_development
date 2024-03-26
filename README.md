@@ -4,11 +4,11 @@
 
 ## Requisitos funcionais
 
-- Docker na versão 4.23.0 ou na ultima versão mais recente [https://www.docker.com/products/docker-desktop/]
+- Docker na versão 4.23.0 ou na versão mais recente [https://www.docker.com/products/docker-desktop/]
 
-- Git na versão 2.39.1 ou na ultima versão mais recente [https://git-scm.com/download/win]
+- Git na versão 2.39.1 ou na versão mais recente [https://git-scm.com/download/win]
 
-- Imagem apache spark na ultima versão mais recente [https://hub.docker.com/r/bitnami/spark]
+- Imagem apache spark na versão mais recente [https://hub.docker.com/r/bitnami/spark]
 
 ### Ambiente de desenvolvimento integrado (IDE)
 
