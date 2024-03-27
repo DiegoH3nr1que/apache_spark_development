@@ -22,7 +22,7 @@
 
 ### Conhecimentos necessários
 
-- Docker: Conhecimento básico é necessário  .
+- Docker: Conhecimento básico é necessário .
 - Apache spark: Conhecimento básico é recomendado.
 - Python: Conhecimento básico é recomendado.
 - Pyspark: Conhecimento básico é recomendado.
@@ -38,18 +38,29 @@ O Apache Spark é uma plataforma de computação distribuída de código aberto 
 
 Uma das principais características do Spark é sua capacidade de executar tarefas em memória, o que resulta em um processamento de dados muito mais rápido do que sistemas tradicionais de processamento em disco. Ele fornece suporte para uma ampla gama de cargas de trabalho, incluindo processamento em lote, streaming de dados em tempo real, aprendizado de máquina e processamento de gráficos.
 
-### Conceitos de Streaming
+### Conceitos de Streaming processing
 
 - Na camada de streaming, os dados são processados continuamente à medida que são recebidos, em vez de serem processados em lotes estáticos.
 - Os dados são frequentemente transmitidos em pequenos lotes ou como um fluxo contínuo e são processados em tempo real à medida que chegam.
 - Essa abordagem é especialmente útil em cenários em que a latência é crítica e as respostas precisam ser fornecidas em tempo real, como em sistemas de monitoramento em tempo real, análise de feeds de redes sociais, processamento de eventos de IoT (Internet das Coisas), entre outros.
 
-### Conceitos de Batch
+### Conceitos de Batch processing
 
 - Na camada de lote, os dados são processados em lotes estáticos, ou seja, uma grande quantidade de dados é coletada e processada de uma só vez.
 - Os dados geralmente são armazenados em um local centralizado (como um data lake ou um sistema de arquivos distribuído) e são processados em intervalos regulares.
 - Essa abordagem é adequada para cenários em que a latência não é crítica e o processamento pode ser feito de forma mais eficiente em grandes volumes de dados.
 - Exemplos de casos de uso incluem análise de dados históricos, geração de relatórios, processamento de dados de logs, entre outros.
+
+
+### Resilient Distributed Datasets (RDDs)
+
+- RDDs são a principal abstração de dados no Apache Spark.
+- Um RDD é uma coleção imutável e distribuída de objetos que podem ser processados em paralelo.
+- Os RDDs suportam operações de transformação (que criam um novo RDD a partir de um existente) e operações de ação (que retornam resultados para o driver do Spark).
+- Escrito em Java/Scala
+- High Level API (Python(pyspark),C#, R) -> Traduzindo -> Low Level API(Java/Scala)
+- High Level API = Dataframe API
+- Low Level API = RDDs
 
 ### Docker
 
