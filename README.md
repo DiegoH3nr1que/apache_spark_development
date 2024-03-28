@@ -51,7 +51,6 @@ Uma das principais características do Spark é sua capacidade de executar taref
 - Essa abordagem é adequada para cenários em que a latência não é crítica e o processamento pode ser feito de forma mais eficiente em grandes volumes de dados.
 - Exemplos de casos de uso incluem análise de dados históricos, geração de relatórios, processamento de dados de logs, entre outros.
 
-
 ### Resilient Distributed Datasets (RDDs)
 
 - RDDs são a principal abstração de dados no Apache Spark.
@@ -61,6 +60,20 @@ Uma das principais características do Spark é sua capacidade de executar taref
 - High Level API (Python(pyspark),C#, R) -> Traduzindo -> Low Level API(Java/Scala)
 - High Level API = Dataframe API
 - Low Level API = RDDs
+
+### Componentes do apache Spark
+
+- Spark Core: Este é o componente principal do Apache Spark e fornece funcionalidades básicas para processamento distribuído, incluindo suporte para RDDs (Resilient Distributed Datasets), operações de transformação e ação, escalabilidade e tolerância a falhas.
+
+- Spark SQL: Este componente permite que os usuários executem consultas SQL em RDDs, DataFrames e tabelas temporárias. Ele fornece uma interface de programação familiar para processamento de dados estruturados e semi-estruturados, facilitando a integração do Spark com ferramentas e habilidades SQL existentes.
+
+- Spark Streaming: Este componente permite o processamento em tempo real de streams de dados. Ele oferece suporte a fontes de dados como Kafka, Flume, Kinesis, entre outros, e permite aplicar operações de transformação e análise em tempo real nos dados recebidos.
+
+- Spark MLlib: Esta é uma biblioteca de aprendizado de máquina do Apache Spark que fornece algoritmos e utilitários para treinamento e implantação de modelos de machine learning em escala. Ele inclui algoritmos para classificação, regressão, clustering, recomendação, entre outros.
+
+- Spark GraphX: Este componente fornece uma API para processamento de grafos e análise de dados de grafo no Apache Spark. Ele inclui algoritmos para calcular métricas de grafos, realizar consultas de grafos e executar análises de comunidades, entre outras funcionalidades.
+
+- PySpark: Esta é uma interface Python para o Apache Spark que permite aos usuários interagir com o Spark usando a linguagem de programação Python. Ele fornece funcionalidades semelhantes ao SparkR para manipulação de dados, análise estatística e construção de modelos de machine learning em Python.
 
 ### Docker
 
