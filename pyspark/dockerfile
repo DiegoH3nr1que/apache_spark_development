@@ -1,10 +1,9 @@
 FROM bitnami/spark:latest
-
-# Cria um diretório 'app' no contêiner
-RUN mkdir /app
+USER root
 
 # Copia o conteúdo do diretório 'app' do host para o diretório 'app' no contêiner
-COPY app /app
+COPY app /opt/bitnami/python/app
 
-# Define o diretório de trabalho como '/app'
-WORKDIR /app
+# Instalação do pyspark e py4j
+RUN pip install --upgrade pip && \
+    /opt/bitnami/python/bin/pip install pyspark
