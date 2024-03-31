@@ -12,7 +12,7 @@
 
 ### Ambiente de desenvolvimento integrado (IDE)
 
-- Recomendo o uso do VSCodena ultima versão mais recente.
+- Recomendo o uso do VSCode na ultima versão mais recente.
 
 ### Sistema Operacional (SO)
 
@@ -96,3 +96,8 @@ Exemplo de Dockerfile:
 Exemplo docker-compose.yml:
 
 ![alt text](imagens/image6.png)
+
+### Referências
+Introdução ao Spark com PySpark: [https://sol.sbc.org.br/livros/index.php/sbc/catalog/download/80/346/605?inline=1#:~:text=O%20conjunto%20de%20dados%20resilientes,do%20RDD%20em%20diferentes%20partições.]
+
+
