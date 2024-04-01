@@ -12,7 +12,7 @@
 
 ### Ambiente de desenvolvimento integrado (IDE)
 
-- Recomendo o uso do VSCode na ultima versão mais recente.
+- Recomendo o uso do VSCode na versão mais recente.
 
 ### Sistema Operacional (SO)
 
