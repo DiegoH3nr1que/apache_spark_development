@@ -61,6 +61,8 @@ Uma das principais características do Spark é sua capacidade de executar taref
 - High Level API = Dataframe API
 - Low Level API = RDDs
 
+![alt text](imagens/image7.png)
+
 ### Componentes do apache Spark
 
 - Spark Core: Este é o componente principal do Apache Spark e fornece funcionalidades básicas para processamento distribuído, incluindo suporte para RDDs (Resilient Distributed Datasets), operações de transformação e ação, escalabilidade e tolerância a falhas.
