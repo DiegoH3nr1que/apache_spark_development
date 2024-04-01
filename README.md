@@ -14,10 +14,6 @@
 
 - Recomendo o uso do VSCode na versão mais recente.
 
-### Sistema Operacional (SO)
-
-- O projeto foi testado e é compátivel com Windows e Linux.
-
 ## Requisitos Não funcionais
 
 ### Conhecimentos necessários
