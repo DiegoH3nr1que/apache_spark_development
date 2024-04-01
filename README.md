@@ -52,6 +52,9 @@ Uma das principais características do Spark é sua capacidade de executar taref
 - RDDs são a principal abstração de dados no Apache Spark.
 - Um RDD é uma coleção imutável e distribuída de objetos que podem ser processados em paralelo.
 - Os RDDs suportam operações de transformação (que criam um novo RDD a partir de um existente) e operações de ação (que retornam resultados para o driver do Spark).
+
+![alt text](imagens/image8.png)
+
 - Escrito em Java/Scala
 - High Level API (Python(pyspark),C#, R) -> Traduzindo -> Low Level API(Java/Scala)
 - High Level API = Dataframe API
